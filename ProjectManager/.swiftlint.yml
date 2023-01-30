@@ -1,0 +1,15 @@
+excluded:
+    - Pods
+    - ProjectManager/AppDelegate.swift
+    - ProjectManager/SceneDelegate.swift
+
+opt_in_rules:
+    - empty_count
+    - empty_string
+
+line_length: 100
+
+disabled_rules:
+    - trailing_whitespace
+    - void_function_in_ternary
+    - identifier_name
